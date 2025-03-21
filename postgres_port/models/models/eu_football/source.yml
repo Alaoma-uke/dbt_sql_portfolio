@@ -1,0 +1,22 @@
+
+version: 2
+
+sources:
+  - name: staging
+    schema: staging
+    database: dbt_prac
+    tables: 
+        - name: country
+          description: Country of league
+        - name: league
+          description: Football League for each country
+        - name: matches_played
+          description: Games played and performance
+        - name: player
+          description: Player basic info
+        - name: player_attributes
+          description: Detailed info on players e.g speed, physical abilities
+        - name: team
+          description: Club info
+        - name: team_attributes
+          description: Detailed club info

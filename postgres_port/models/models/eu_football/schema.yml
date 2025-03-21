@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: match_model
+    description: "Match model to test all connections"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
