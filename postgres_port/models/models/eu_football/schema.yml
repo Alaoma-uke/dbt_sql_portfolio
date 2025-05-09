@@ -10,3 +10,12 @@ models:
         tests:
           - unique
           - not_null
+          
+  - name: match_results
+    description: "Results on matches played and league info"
+    columns:
+      - name: unique_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
